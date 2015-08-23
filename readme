@@ -1,2 +1,11 @@
-1.) All intended files should be in the working directdory
-2.) The function will structrue sort and analyze the data when executed
+Readme for run_analysis.R function 
+1.) All data files for input should be in the working directdory
+2.) Load library(data.table) and library(dplyr)
+3.) The function will structrue, sort and analyze the data as is described in the code when executed:
+  3a) Make the "test" dataset with the "test" data files
+  3b) Make the "train" dataset with the "train" data files
+  3c) Merge the two datasets into one data table
+  3d) Narrow the dataset to only include mean and std variable
+  3e) Name mean and std variables based on "features.txt" data file and name "Activity" and "ID" variables
+  3f) Pull data for each "Activity" and take the mean of each variable based on "ID"
+  3g) Merge each of the analyzed datasets and merge into the final dataset 
