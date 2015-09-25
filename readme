@@ -1,4 +1,4 @@
-Readme for run_analysis.R function 
+Readme for run_analysis.R function  
 1.) All data files for input should be in the working directdory
 2.) Load library(data.table) and library(dplyr)
 3.) The function will structrue, sort and analyze the data as is described in the code when executed:
