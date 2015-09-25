@@ -26,7 +26,7 @@ run_analysis <- function() {
 	narrow_dataset <- narrow_dataset[,c(84,85,1:83)]
 	narrow_dataset <- narrow_dataset[order(narrow_dataset$Activity, narrow_dataset$ID),]
 	
-	##Calculate the mean of each variable for each activity performed by each subject
+	##Calculate the mean of each variable for each activity performed by each subject 
 	Activity1 <- narrow_dataset[narrow_dataset$Activity == 1,]
 	Activity1 <- Activity1 %>% group_by(ID) %>% summarise_each(funs(mean))
 	Activity2 <- narrow_dataset[narrow_dataset$Activity == 2,]
